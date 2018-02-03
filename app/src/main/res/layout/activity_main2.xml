@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.modul1_ayu_1202150288.Main2Activity"
+    android:layout_gravity="center"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Makan Malam"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <TextView
+        android:id="@+id/textView_tempat"
+        android:layout_below = "@+id/textView3"
+        android:layout_marginTop="23dp"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="146dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView5"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_gravity="center"
+        android:text="Porsi"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView_porsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView_harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:layout_editor_absoluteX="163dp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteY="450dp"
+
+        />
+
+
+</LinearLayout>
