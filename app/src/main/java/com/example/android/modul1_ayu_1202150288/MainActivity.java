@@ -6,6 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+import com.example.android.modul1_ayu_1202150288.Main2Activity;
+import com.example.android.modul1_ayu_1202150288.R;
+import com.example.android.modul1_ayu_1202150288.Main2Activity;
+
 public class MainActivity extends AppCompatActivity {
 
     private EditText editText_menu;
